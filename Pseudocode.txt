@@ -1,0 +1,31 @@
+Pseudocode for Authenticate.java
+
+ REAL WORLD PROBLEM
+     -Verify correct username and password for login
+
+ KNOWN VALUES
+     -correctUsername = "csc200"
+     -correctPassword = "password"
+
+ INPUTS
+     -Username
+     -Password
+
+ CALCULATIONS/ANALYSIS
+     -Does username input = correctUsername?
+     -Does password input = correctPassword?
+
+ OUTPUTS
+     -Results of analysis
+
+ PSEUDOCODE ALGORITHM
+     -PROMPT for username
+     -READ username
+     -PROMPT for password
+     -READ password
+     -IF username equals correctUsername
+     -THEN PROMPT for password
+         -IF password equals correctPassword
+	 -THEN DISPLAY welcome message
+	 -ELSE DISPLAY invalid message and exit program
+     -ELSE DISPLAY invalid message and exit program
